@@ -1,12 +1,13 @@
 {
   "name": "vercel-server",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "This is testing project to deploy on vercel",
+  "author": "Karan chaudhary",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
+    "vercel-build": "pnpm run build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
